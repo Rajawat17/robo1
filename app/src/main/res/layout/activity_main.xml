@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:text="Login"
+        android:textColor="#FC12A3E7"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvusername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Username or email-address"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_shape"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tvpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_shape"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        android:id="@+id/cbremeber_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Remember me"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_shape"
+        android:text="GO!"
+        android:textColor="#2196F3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvforgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Forgot your password ? Get help"
+        android:textColor="#2196F3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:paddingTop="10dp"
+        android:text="SignUp"
+        android:textColor="#FC12A3E7"
+        android:textSize="30sp" />
+
+
+
+
+</LinearLayout>

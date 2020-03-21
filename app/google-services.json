@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210363086033",
+    "firebase_url": "https://robo1-80646.firebaseio.com",
+    "project_id": "robo1-80646",
+    "storage_bucket": "robo1-80646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210363086033:android:454455a98abf226b9c81f0",
+        "android_client_info": {
+          "package_name": "com.example.robo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210363086033-in715mf2ejkk9827eo2d9s14vt1mv05g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvNNxz_zZwfwtaumFzvkhzw6DWnV0yK5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210363086033-in715mf2ejkk9827eo2d9s14vt1mv05g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
