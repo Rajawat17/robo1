@@ -20,18 +20,18 @@ public class register extends AppCompatActivity {
     private EditText username, userpassword, useremail;
     private Button regbutton;
     private TextView userlogin;
-  //  private FirebaseAuth firebaseAuth;
+    private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         setupviews();
-       // firebaseAuth=FirebaseAuth.getInstance();
+        firebaseAuth=FirebaseAuth.getInstance();
         regbutton.setOnClickListener(new View.OnClickListener() {
             @Override
            public void onClick(View v) {
-                /*if(validate()){
+                if(validate()){
                     //upload data to database
                     String user_email=useremail.getText().toString().trim();
                     String user_password=userpassword.getText().toString().trim();
@@ -47,7 +47,7 @@ public class register extends AppCompatActivity {
                             }
                         }
                     });
-                }*/
+                }
             }
         });
         userlogin.setOnClickListener(new View.OnClickListener() {
